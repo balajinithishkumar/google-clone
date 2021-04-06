@@ -1,0 +1,143 @@
+.search_page {
+  display: flex;
+}
+.search_page_logo img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.search_page_input {
+  display: flex;
+  flex: 0.7;
+  margin-top: 40px;
+  height: 50px;
+  width: 600px;
+  border-color: 1px solid gray;
+  border-radius: 333px;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_page_input input {
+  margin-left: 20px;
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline-width: 0;
+}
+
+.search_page_input {
+  box-shadow: 0 4px 8px 0 rgba(168, 162, 162, 0.2),
+    0 6px 20px 0 rgba(218, 213, 213, 0.19);
+}
+
+.search_page_input:hover {
+  box-shadow: 0 4px 8px 0 rgba(182, 175, 175, 0.2),
+    0 6px 20px 0 rgba(139, 132, 132, 0.19);
+}
+.nithu {
+  display: flex;
+}
+.nithu > .MuiSvgIcon-root {
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #4285f4;
+  cursor: pointer;
+}
+.nithu p {
+  padding-right: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.nithu button {
+  border: none;
+  background-color: white;
+  outline-width: 0;
+  padding-right: 10px;
+  color: #4285f4;
+  cursor: pointer;
+}
+.nithu span {
+  height: 30px;
+  width: 2px;
+  background-color: lightgray;
+}
+.search_page_user {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.search_page_user p {
+  padding-left: 20px;
+}
+
+.search_page_icons {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  color: rgb(105, 99, 99);
+  left: 100px;
+  top: 110px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.search_page_icons h:hover,
+.search_page_icons_left > p:hover {
+  color: #1274f5;
+}
+
+.search_page_icons .MuiSvgIcon-root {
+  margin-left: 40px;
+}
+
+.search_page_icons_left {
+  display: flex;
+  margin-left: 50px;
+}
+
+.search_page_icons_left p {
+  padding-left: 30px;
+}
+
+.search_page_border {
+  margin-top: 45px;
+  border-top: 1px solid lightgray;
+}
+
+/*user_results */
+
+.search_result_time {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.search_result_time h {
+  color: gray;
+  padding-left: 5px;
+}
+
+.results {
+  margin-top: 40px;
+  padding-left: 145px;
+}
+
+.results h2 {
+  display: flex;
+  padding-left: -130px;
+  color: #524c8d;
+  text-decoration: underline;
+}
+
+.results h2:hover {
+  color: #524c8d;
+  text-decoration: underline;
+  cursor: pointer;
+}
